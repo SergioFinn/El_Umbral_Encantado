@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre Nosotros - El Umbral Encantado</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#1c1a17;color:#f5f5dc;font:18px/1.75 Georgia,serif}a{color:#e7c760}a:focus-visible{outline:3px solid #fff;outline-offset:5px}nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 26px;background:#2b2620;padding:20px}nav a{text-decoration:none}nav a:hover,nav a[aria-current]{text-decoration:underline;text-underline-offset:6px}.cabecera{text-align:center;background:#0d0c0a;border-bottom:1px solid #a78a32;padding:42px 20px}.logo{display:block;width:min(440px,90%);height:auto;margin:0 auto 20px}h1,h2,h3{color:#e7c760;font-weight:normal;line-height:1.25}h1{font-size:clamp(2.2rem,5vw,3.5rem);margin:15px 0}h2{font-size:2rem;margin:0 0 20px}h3{font-size:1.3rem;margin:0 0 12px}.cabecera p{max-width:630px;margin:15px auto}main{max-width:1120px;margin:auto;padding:52px 24px}.historia{max-width:820px;margin:0 auto 50px}.historia p{margin:0 0 22px}.rejilla{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:28px 0 48px}.zona{border-top:2px solid #a78a32;padding:22px 0}.zona p{margin:0}.mapa{width:100%;height:clamp(280px,60vw,720px);border:1px solid #a78a32;background:#15120d;border-radius:6px}.acciones{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-top:32px}.boton{display:inline-block;background:#d4af37;color:#17130d;padding:12px 23px;text-decoration:none;border-radius:4px}.secundario{background:transparent;border:1px solid #d4af37;color:#e7c760}footer{text-align:center;border-top:1px solid #756127;padding:24px;font-size:1rem}.nota{font-size:1rem;color:#d1c7ad}@media(max-width:800px){.rejilla{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.rejilla{grid-template-columns:1fr;gap:10px}main{padding:32px 20px}nav{gap:10px 18px;font-size:1rem}}
+  </style>
+</head>
+<body id="arriba">
+  <nav aria-label="Navegación principal">
+    <a href="portada.html">Inicio</a>
+    <a href="carta.php">Nuestro Menú</a>
+    <a href="historia.html" aria-current="page">Sobre Nosotros</a>
+    <a href="reservaciones.php">Reservaciones</a>
+    <a href="seguridad_de_pagos.html">Pagos Seguros</a>
+  </nav>
+  <header class="cabecera">
+    <img class="logo" src="img/logo.png" alt="El Umbral Encantado">
+    <h1>Un castillo para compartir aventuras</h1>
+    <p>Seis espacios temáticos, sabores de distintos reinos y una mesa para tu próxima historia.</p>
+  </header>
+  <main>
+    <section class="historia" aria-labelledby="quienes">
+      <h2 id="quienes">¿Quiénes somos?</h2>
+      <p>Somos un restaurante temático creado para quienes disfrutan la fantasía, las historias y las experiencias diferentes. En El Umbral Encantado creemos que salir a comer puede convertirse en una aventura que se comparte en familia, con amigos o durante una celebración especial.</p>
+      <p>Nuestro castillo reúne grandes salones, un bosque encantado, una aldea y una torre. Cada zona tiene su propia personalidad para que elijas dónde quieres vivir tu experiencia, desde una comida tranquila hasta un cumpleaños rodeado de magia.</p>
+      <p>El menú incluye platillos tradicionales, alternativas veganas, opciones infantiles y bebidas con y sin alcohol. Los postres son los protagonistas de la Galería de los Dulces Encantados: descubre el Corazón del Dragón, el Baúl del Alquimista y otras creaciones que forman parte de la aventura.</p>
+      <p>También encontrarás mercancía temática para llevarte un recuerdo del reino. Nuestra propuesta combina alimentos de calidad, imaginación y una atención cercana.</p>
+    </section>
+    <section aria-labelledby="reinos">
+      <h2 id="reinos">Encuentra tu rincón del castillo</h2>
+      <div class="rejilla">
+        <article class="zona"><h3>Gran Salón de las Luminarias</h3><p>El comedor principal, pensado para reunir a familias y grupos alrededor de una buena comida.</p></article>
+        <article class="zona"><h3>Bosque de los Susurros</h3><p>Un ambiente tranquilo para conversar y descubrir las opciones de nuestro menú vegano.</p></article>
+        <article class="zona"><h3>Aldea de los Pequeños Aventureros</h3><p>Un espacio familiar e infantil para que los viajeros más pequeños también disfruten la visita.</p></article>
+        <article class="zona"><h3>Torre del Dragón</h3><p>Un lugar para disfrutar bebidas y convivir. Acceso exclusivo para mayores de 18 años.</p></article>
+        <article class="zona"><h3>Galería de los Dulces Encantados</h3><p>El hogar de nuestros postres, con creaciones inspiradas en la magia y los sabores del reino.</p></article>
+        <article class="zona"><h3>Terraza de los Reinos</h3><p>El escenario para cumpleaños, celebraciones y eventos especiales con tus invitados.</p></article>
+      </div>
+    </section>
+    <section aria-labelledby="mapa">
+      <h2 id="mapa">Explora nuestras instalaciones</h2>
+      <p>Consulta el mapa para conocer la distribución del castillo antes de elegir tu zona de preferencia.</p>
+      <iframe class="mapa" title="Mapa ilustrado de El Umbral Encantado" loading="lazy" srcdoc="&lt;!DOCTYPE html&gt;&lt;html lang='es'&gt;&lt;head&gt;&lt;meta charset='UTF-8'&gt;&lt;meta name='viewport' content='width=device-width,initial-scale=1'&gt;&lt;title&gt;Mapa del castillo&lt;/title&gt;&lt;style&gt;body{margin:0;background:#15120d;display:flex;align-items:center;justify-content:center;min-height:100vh}img{display:block;width:100%;height:auto}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;img src='img/mapa.png' alt='Plano del castillo con seis zonas temáticas, entrada, cocina, baños y salida'&gt;&lt;/body&gt;&lt;/html&gt;"></iframe>
+      <p class="nota"><a href="img/mapa.png" target="_blank" rel="noopener">Abrir el mapa completo</a>. La asignación de las zonas está sujeta a disponibilidad.</p>
+      <div class="acciones"><a class="boton" href="reservaciones.php">Reservar mi visita</a><a class="boton secundario" href="carta.php">Descubrir el menú</a></div>
+    </section>
+  </main>
+  <footer>El Umbral Encantado · Proyecto escolar<br><a href="#arriba">Volver arriba</a></footer>
+</body>
+</html>
